@@ -11,7 +11,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://parkerituk.com',
+        url: 'http://blog.indataly.com',
 
 
         mail: {
@@ -19,7 +19,7 @@ config = {
             options: {
                 service: 'Mailgun',
                 auth: {
-                    user: 'postmaster@sandbox4644cf8a56b34c68b53ecec0f3903d65.mailgun.org', // mailgun username
+                    user: 'postmaster@indataly.com', // mailgun username
                     pass: process.env.MAILGUN_PASS // mailgun password
                 }
             }
@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://parkerituk.com',
+        url: 'http://blog.indataly.com',
 
         mail: {
             transport: 'SMTP',
