@@ -55,7 +55,7 @@ config = {
             options: {
                 service: 'Mailgun',
                 auth: {
-                    user: 'postmaster@sandbox4644cf8a56b34c68b53ecec0f3903d65.mailgun.org', // mailgun username
+                    user: 'postmaster@indataly.com', // mailgun username
                     pass: process.env.MAILGUN_PASS // mailgun password
                 }
             }
